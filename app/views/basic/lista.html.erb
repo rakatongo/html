@@ -1,0 +1,42 @@
+<%= render 'header' %>
+<div class="inner">
+	<h1>List tag</h1>
+	<div class="codigo">
+		<h2>UL List</h2>
+		<ul>
+			<li>First item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ul>
+	</div>
+	<div class="texto">
+		<%=h '<ul>' %> <br>
+		<%=h '<li> First item </li>' %>
+		<%=h '<li> Second item </li>' %>
+		<%=h '<li> Third item </li>' %>
+		<%=h '</ul>' %> <br>
+	</div>
+	
+	<div class="codigo">
+		<h2>Definition List</h2>
+		<dl>
+			<dt>First Item</dt>
+			<dd>First Explication</dd>
+			<dt>Second Item</dt>
+			<dd>Second Explication</dd>
+			<dt>Third Item</dt>
+			<dd>Third Explication</dd>
+		</dl>
+	</div>
+	<div class="texto">
+		<%= h '<dl>'%><br>
+		<%= h '<dt>First Item</dt>' %><br>
+		<%= h '<dd>First Explicacion</dd>' %><br>
+		<%= h '<dt>Second Item</dt>' %><br>
+		<%= h '<dd>Second Explicacion</dd>' %><br>
+		<%= h '<dt>Third Item</dt>' %><br>
+		<%= h '<dd>Third Explicacion</dd>' %><br>
+		<%= h '</dl>'%><br>
+	</div>
+	
+</div>
